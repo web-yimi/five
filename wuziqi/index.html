@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!--
+			五子棋 js写两遍 其余作品完善55151511515
+			对前端行业了解
+			著名人物
+			框架
+			历史
+			其他
+			著名网站
+			掘金
+			segmentFault
+			stackoverflow
+			quora
+			zhihu
+			baike
+		-->
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src='js/jquery.js'></script>
+		<script src='js/index.js'></script>
+	</head>
+	<body>
+		<audio src="music/于秋璇-高山流水.mp3" autoplay loop></audio>
+		<audio src="music/棋子音效d.mp3" class='audio'></audio>
+		<audio src="music/3144.mp3" class='biao1'></audio>
+		<audio src="music/3939.mp3" class='biao2'></audio>
+		<div class='con'>
+			<canvas width='600' height='600' id='canvas'></canvas>
+			<div class='biao'>
+				<canvas width='130' height='130' id='miaobiao1'></canvas>
+				<div class='leftTime'></div>
+				<canvas width='130' height='130' id='miaobiao2'></canvas>
+				<div class='rightTime'></div>
+				<img src="img/b.png" alt="" class='left'/>
+				<img src="img/a.png" alt="" class='right'/>
+			</div>
+			<a href="Javascript:;" class='manual'></a>
+			<a href="Javascript:;" class='new'></a>
+			<a href="Javascript:;" class='renren'>
+				<img src="img/rpt.png" alt="" />
+			</a>
+			<a href="Javascript:;" class='renji'>
+				<img src="img/renji.png" alt="" />
+			</a>
+		</div>
+		<div class="box">
+			<div class='close'>×</div>
+		</div>
+		<div class='zhao'>
+			<div class="info">
+				<span class='win'></span><span>赢</span>
+				<a href="Javascript:;" class='again'>再来一局</a>
+				<a href="Javascript:;" class='exit'>退出</a>
+			</div>
+		</div>	
+		<div class='fenmian'>
+			<span></span>
+			<img src="img/rensheng.png" alt="" class='rensheng'/>
+			<img src="img/shu.png" alt="" class='text'/>
+			<a href="Javascript:;" class='guize'><img src="img/guize.png" alt="" />
+				<div>
+					对局双方各执一色棋子。<br>
+					空棋盘开局。<br>
+					黑先、白后，交替下子，每次只能下一子。<br>
+					棋子下在棋盘的空白点上，棋子下定后，不得向其它点移动，不得从棋盘上拿掉或拿起另落别处。
+					轮流下子是双方的权利，但允许任何一方放弃下子权。<br>
+					默认人人模式。<br>
+				</div>
+			</a>
+			<a href="Javascript:;"><img src="img/start.png" alt="" class='start'/></a>
+		</div>
+	</body>
+</html>
